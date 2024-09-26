@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65012FA929A84C9A00918022 /* ChargesLabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65012FA829A84C9A00918022 /* ChargesLabVC.swift */; };
+		6519A98928F24985008A37E6 /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6519A98828F24985008A37E6 /* PracticeViewController.swift */; };
+		65217C9128F476C2008215FB /* Notepad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65217C9028F476C2008215FB /* Notepad.swift */; };
+		65DA2C4928CD1BC300EC06D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DA2C4828CD1BC300EC06D1 /* AppDelegate.swift */; };
+		65DA2C4B28CD1BC400EC06D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DA2C4A28CD1BC400EC06D1 /* SceneDelegate.swift */; };
+		65DA2C4D28CD1BC400EC06D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DA2C4C28CD1BC400EC06D1 /* ViewController.swift */; };
+		65DA2C5028CD1BC400EC06D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65DA2C4E28CD1BC400EC06D1 /* Main.storyboard */; };
+		65DA2C5328CD1BC400EC06D1 /* PhysicsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65DA2C5128CD1BC400EC06D1 /* PhysicsApp.xcdatamodeld */; };
+		65DA2C5528CD1BC700EC06D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65DA2C5428CD1BC700EC06D1 /* Assets.xcassets */; };
+		65DA2C5828CD1BC700EC06D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65DA2C5628CD1BC700EC06D1 /* LaunchScreen.storyboard */; };
+		65DA2C6028CD266D00EC06D1 /* Pendulum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DA2C5F28CD266D00EC06D1 /* Pendulum.swift */; };
+		65DA2C6228CD5B9200EC06D1 /* TopicMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DA2C6128CD5B9200EC06D1 /* TopicMenu.swift */; };
+		65F19CB428CFFA1300EE1A43 /* KinematicsLabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F19CB328CFFA1300EE1A43 /* KinematicsLabVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		65012FA829A84C9A00918022 /* ChargesLabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargesLabVC.swift; sourceTree = "<group>"; };
+		6519A98828F24985008A37E6 /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
+		65217C9028F476C2008215FB /* Notepad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notepad.swift; sourceTree = "<group>"; };
+		65DA2C4528CD1BC300EC06D1 /* PhysicsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhysicsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65DA2C4828CD1BC300EC06D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65DA2C4A28CD1BC400EC06D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		65DA2C4C28CD1BC400EC06D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65DA2C4F28CD1BC400EC06D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65DA2C5228CD1BC400EC06D1 /* PhysicsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhysicsApp.xcdatamodel; sourceTree = "<group>"; };
+		65DA2C5428CD1BC700EC06D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65DA2C5728CD1BC700EC06D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65DA2C5928CD1BC700EC06D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65DA2C5F28CD266D00EC06D1 /* Pendulum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pendulum.swift; sourceTree = "<group>"; };
+		65DA2C6128CD5B9200EC06D1 /* TopicMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicMenu.swift; sourceTree = "<group>"; };
+		65F19CB328CFFA1300EE1A43 /* KinematicsLabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinematicsLabVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65DA2C4228CD1BC300EC06D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65DA2C3C28CD1BC300EC06D1 = {
+			isa = PBXGroup;
+			children = (
+				65DA2C4728CD1BC300EC06D1 /* PhysicsApp */,
+				65DA2C4628CD1BC300EC06D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65DA2C4628CD1BC300EC06D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65DA2C4528CD1BC300EC06D1 /* PhysicsApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65DA2C4728CD1BC300EC06D1 /* PhysicsApp */ = {
+			isa = PBXGroup;
+			children = (
+				65F19CB328CFFA1300EE1A43 /* KinematicsLabVC.swift */,
+				6519A98828F24985008A37E6 /* PracticeViewController.swift */,
+				65217C9028F476C2008215FB /* Notepad.swift */,
+				65DA2C6128CD5B9200EC06D1 /* TopicMenu.swift */,
+				65DA2C4828CD1BC300EC06D1 /* AppDelegate.swift */,
+				65DA2C4A28CD1BC400EC06D1 /* SceneDelegate.swift */,
+				65DA2C4C28CD1BC400EC06D1 /* ViewController.swift */,
+				65DA2C5F28CD266D00EC06D1 /* Pendulum.swift */,
+				65DA2C4E28CD1BC400EC06D1 /* Main.storyboard */,
+				65DA2C5428CD1BC700EC06D1 /* Assets.xcassets */,
+				65DA2C5628CD1BC700EC06D1 /* LaunchScreen.storyboard */,
+				65DA2C5928CD1BC700EC06D1 /* Info.plist */,
+				65DA2C5128CD1BC400EC06D1 /* PhysicsApp.xcdatamodeld */,
+				65012FA829A84C9A00918022 /* ChargesLabVC.swift */,
+			);
+			path = PhysicsApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65DA2C4428CD1BC300EC06D1 /* PhysicsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65DA2C5C28CD1BC700EC06D1 /* Build configuration list for PBXNativeTarget "PhysicsApp" */;
+			buildPhases = (
+				65DA2C4128CD1BC300EC06D1 /* Sources */,
+				65DA2C4228CD1BC300EC06D1 /* Frameworks */,
+				65DA2C4328CD1BC300EC06D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhysicsApp;
+			productName = PhysicsApp;
+			productReference = 65DA2C4528CD1BC300EC06D1 /* PhysicsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65DA2C3D28CD1BC300EC06D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					65DA2C4428CD1BC300EC06D1 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 65DA2C4028CD1BC300EC06D1 /* Build configuration list for PBXProject "PhysicsApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65DA2C3C28CD1BC300EC06D1;
+			productRefGroup = 65DA2C4628CD1BC300EC06D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65DA2C4428CD1BC300EC06D1 /* PhysicsApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65DA2C4328CD1BC300EC06D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DA2C5828CD1BC700EC06D1 /* LaunchScreen.storyboard in Resources */,
+				65DA2C5528CD1BC700EC06D1 /* Assets.xcassets in Resources */,
+				65DA2C5028CD1BC400EC06D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65DA2C4128CD1BC300EC06D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65012FA929A84C9A00918022 /* ChargesLabVC.swift in Sources */,
+				65DA2C4D28CD1BC400EC06D1 /* ViewController.swift in Sources */,
+				65217C9128F476C2008215FB /* Notepad.swift in Sources */,
+				6519A98928F24985008A37E6 /* PracticeViewController.swift in Sources */,
+				65DA2C4928CD1BC300EC06D1 /* AppDelegate.swift in Sources */,
+				65DA2C4B28CD1BC400EC06D1 /* SceneDelegate.swift in Sources */,
+				65F19CB428CFFA1300EE1A43 /* KinematicsLabVC.swift in Sources */,
+				65DA2C6228CD5B9200EC06D1 /* TopicMenu.swift in Sources */,
+				65DA2C6028CD266D00EC06D1 /* Pendulum.swift in Sources */,
+				65DA2C5328CD1BC400EC06D1 /* PhysicsApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65DA2C4E28CD1BC400EC06D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65DA2C4F28CD1BC400EC06D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65DA2C5628CD1BC700EC06D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65DA2C5728CD1BC700EC06D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65DA2C5A28CD1BC700EC06D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65DA2C5B28CD1BC700EC06D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65DA2C5D28CD1BC700EC06D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4L78GFPH35;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhysicsApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Pendulous;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EvanCedeno.PhysicsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65DA2C5E28CD1BC700EC06D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4L78GFPH35;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhysicsApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Pendulous;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EvanCedeno.PhysicsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65DA2C4028CD1BC300EC06D1 /* Build configuration list for PBXProject "PhysicsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65DA2C5A28CD1BC700EC06D1 /* Debug */,
+				65DA2C5B28CD1BC700EC06D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65DA2C5C28CD1BC700EC06D1 /* Build configuration list for PBXNativeTarget "PhysicsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65DA2C5D28CD1BC700EC06D1 /* Debug */,
+				65DA2C5E28CD1BC700EC06D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		65DA2C5128CD1BC400EC06D1 /* PhysicsApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				65DA2C5228CD1BC400EC06D1 /* PhysicsApp.xcdatamodel */,
+			);
+			currentVersion = 65DA2C5228CD1BC400EC06D1 /* PhysicsApp.xcdatamodel */;
+			path = PhysicsApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 65DA2C3D28CD1BC300EC06D1 /* Project object */;
+}
