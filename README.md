@@ -2,6 +2,8 @@
 
 Welcome! Pendulous is an app designed to teach physics through interactive simulations. Students can visualize the effects of adjusting certain interactive properties through a collection of labs in a format designed for mobile devices. Labs are inspired by [PhET Simulations](https://phet.colorado.edu/). More simulations coming soon. Hope you enjoy!<br>
 
+<img src="https://github.com/EvanC8/Pendulous/blob/main/pendulous1.png" width="450">   <img src="https://github.com/EvanC8/Pendulous/blob/main/pendulous2.png" width="450">
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
