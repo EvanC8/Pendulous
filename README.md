@@ -38,9 +38,12 @@ Welcome! Pendulous is an app designed to teach physics through interactive simul
 ### Kinematics Lab - Cannon Simulation
 The Kinematics Lab is a projectile motion simulator. Students can adjust properties such as launch angle and launch speed to alter the path of the cannon ball projectile.
 
+<img src="https://github.com/EvanC8/Pendulous/blob/main/pendulous1.png" width="400">
+
 ### Electric Fields Lab - Point Charges Simulation
 This Electric Fields lab is a simulation of the electric field created by point charges. Students can add protons and electrons to the scene and move them around to produce different electric field paths. 
 
+<img src="https://github.com/EvanC8/Pendulous/blob/main/pendulous2.png" width="400">
 
 # Next Steps
 * Finishing the implementation of practice problems for each simulation.
