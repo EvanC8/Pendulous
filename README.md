@@ -1,6 +1,6 @@
 # Pendulous
 
-Welcome! <br>
+Welcome! Pendulous is an app designed to teach physics through interactive simulations. Students can visualize the effects of adjusting certain interactive properties through a collection of labs in a format designed for mobile devices. Labs are inspired by [PhET Simulations](https://phet.colorado.edu/). More simulations coming soon. Hope you enjoy!<br>
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -11,8 +11,8 @@ Welcome! <br>
     <li>
       <a href="#how-it-works">How it works</a>
       <ul>
-        <li><a href="#kinematics lab">Kinematics Lab</a></li>
-        <li><a href="#electric fields lab">Electric Fields Lab</a></li>
+        <li><a href="#kinematicslab">Kinematics Lab</a></li>
+        <li><a href="#electricfieldslab">Electric Fields Lab</a></li>
       </ul>
     </li>
     <li><a href="#next-steps">Next Steps</a></li>
@@ -33,10 +33,11 @@ Welcome! <br>
 
 # How it works
 
-### Kinematics Lab
+### Kinematics Lab - Cannon Simulation
+The Kinematics Lab is a projectile motion simulator. Students can adjust properties such as launch angle and launch speed to alter the path of the cannon ball projectile.
 
-
-### Electric Fields Lab
+### Electric Fields Lab - Point Charges Simulation
+This Electric Fields lab is a simulation of the electric field created by point charges. Students can add protons and electrons to the scene and move them around to produce different electric field paths. 
 
 
 # Next Steps
